@@ -1,0 +1,13 @@
+com\lizhifeng\study\spring_bean\creditcardaccount\CreateCreditCardAccount.class
+com\lizhifeng\study\spring_bean\domain\IAddress.class
+com\lizhifeng\study\spring_bean\creditlinking\CreditLinkingInterface.class
+com\lizhifeng\study\spring_bean\domain\ICustomer.class
+com\lizhifeng\study\spring_bean\email\EmailInterface.class
+com\lizhifeng\study\spring_bean\creditlinking\CreditLinking.class
+com\lizhifeng\study\spring_bean\domain\Address.class
+com\lizhifeng\study\spring_bean\email\Email.class
+com\lizhifeng\study\spring_bean\creditcardaccount\CreateCreditCardAccountInterface.class
+com\lizhifeng\study\spring_bean\creditrating\CreditRating.class
+com\lizhifeng\study\spring_bean\creditrating\CreditRatingInterface.class
+com\lizhifeng\study\spring_bean\client\CreateCreditAccountClient.class
+com\lizhifeng\study\spring_bean\domain\Customer.class
