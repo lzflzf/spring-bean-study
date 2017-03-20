@@ -6,6 +6,19 @@ public class CreditLinking implements CreditLinkingInterface {
 
 	private String url;
 	
+	
+	CreditLinking()
+	{
+		System.out.println("调用了无参构造函数");
+		System.err.println("Spring bean 一定要提供一个无参构造函数");
+	}
+	
+	CreditLinking(String url)
+	{
+		this.url = url ;		
+	}
+	
+		
 	public void linkCreditBankAccount(ICustomer icustomer) throws Exception {
 		//Connect to URL
 		System.out.println("url to connect is " + url);		
@@ -19,6 +32,6 @@ public class CreditLinking implements CreditLinkingInterface {
 
 	public void setUrl(String url) {
 		this.url = url;
-		System.out.println("初始化url");		
+		System.err.println("初始化url");
 	}
 }
